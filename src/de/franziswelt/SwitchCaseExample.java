@@ -8,7 +8,7 @@ public class SwitchCaseExample {
                 case 0:
                     System.out.println("na");
                 case 1:
-                    System.out.println("Sie");
+                    System.out.println("Sie");break;
                 case 2:
                     System.out.println("toller");
                 case 3:
@@ -18,6 +18,7 @@ public class SwitchCaseExample {
                 default:
                     System.out.println("!");
             }
+
         }
     }
 }

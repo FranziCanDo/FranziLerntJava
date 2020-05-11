@@ -22,7 +22,7 @@ public class RomanNumberRenderer {
             else rest = subtractRomanLetter(result, rest, 1, "I");
         }
 
-        
+
         return result.toString().replaceFirst("XXXX", "XL");
         // renderRomanNumber ist eine Funktion (number rein string raus) und
         // eine Methode (weil es einer Klasse zugeordnet ist)
